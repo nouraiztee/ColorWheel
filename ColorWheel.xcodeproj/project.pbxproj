@@ -16,6 +16,7 @@
 		8FDB04C92C6B448000C08A17 /* ColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB04C82C6B448000C08A17 /* ColorWheelView.swift */; };
 		8FDB04CB2C6B51DD00C08A17 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB04CA2C6B51DD00C08A17 /* ColorPicker.swift */; };
 		8FDB04CE2C6B527C00C08A17 /* UIColor+HSBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB04CD2C6B527C00C08A17 /* UIColor+HSBA.swift */; };
+		8FDB04D02C6B6B4800C08A17 /* ColorSegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB04CF2C6B6B4800C08A17 /* ColorSegmentedControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8FDB04C82C6B448000C08A17 /* ColorWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelView.swift; sourceTree = "<group>"; };
 		8FDB04CA2C6B51DD00C08A17 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 		8FDB04CD2C6B527C00C08A17 /* UIColor+HSBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HSBA.swift"; sourceTree = "<group>"; };
+		8FDB04CF2C6B6B4800C08A17 /* ColorSegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSegmentedControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				8FDB04C82C6B448000C08A17 /* ColorWheelView.swift */,
 				8FDB04CA2C6B51DD00C08A17 /* ColorPicker.swift */,
+				8FDB04CF2C6B6B4800C08A17 /* ColorSegmentedControlView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDB04B82C6B43B800C08A17 /* ColorWheelViewController.swift in Sources */,
+				8FDB04D02C6B6B4800C08A17 /* ColorSegmentedControlView.swift in Sources */,
 				8FDB04B42C6B43B800C08A17 /* AppDelegate.swift in Sources */,
 				8FDB04CB2C6B51DD00C08A17 /* ColorPicker.swift in Sources */,
 				8FDB04CE2C6B527C00C08A17 /* UIColor+HSBA.swift in Sources */,
@@ -327,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +359,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
